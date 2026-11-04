@@ -1,14 +1,11 @@
 ---
 title: Homepage
 ---
-<nav>
-
 * [Home]({{ '/index.html' | relative_url }}){: .active}
 * [Lab 1]({{ '/lab1.html' | relative_url }})
 * [Lab 2]({{ '/lab2.html' | relative_url }})
 {{ navbar | markdownify }}
 
-</nav>
 
 
 ## Course Schedule
