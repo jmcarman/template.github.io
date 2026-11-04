@@ -2,9 +2,9 @@
 title: Homepage
 ---
 
-## Course work
+## Course Schedule
 
-| Lab | Description |
+| Week | Lab |
 |:----|:------------|
-| [Lab 1](./lab1.md) | View the first lab. |
-| [Lab 2](./lab2.md) | View the second lab. |
+| Week 1 | [Lab 1](./lab1.md) |
+| Week 2 | [Lab 2](./lab2.md) |
