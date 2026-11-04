@@ -85,7 +85,7 @@ nav ul  {
 }
 
 p a {
-    float: right;
+    float: left;
     display: block;
     color: white;
     text-align: center;
