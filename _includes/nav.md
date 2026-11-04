@@ -1,3 +1,3 @@
-* [Home]({% link index.md %})
-* [Lab 1]({% link lab1.md %})
-* [Lab 2]({% link lab2.md %})
+* [Home]({{ '/index.html' | relative_url }})
+* [Lab 1]({{ '/lab1.html' | relative_url }})
+* [Lab 2]({{ '/lab2.html' | relative_url }})
