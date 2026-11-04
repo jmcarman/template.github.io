@@ -1,14 +1,11 @@
 ---
 title: Homepage
 ---
-<nav class="site-nav">
 
 * [Home]({{ '/index.html' | relative_url }}){: .active}
 * [Lab 1]({{ '/lab1.html' | relative_url }})
 * [Lab 2]({{ '/lab2.html' | relative_url }})
-
-</nav>
-
+{: class="site-nav" extension="nav" }
 
 
 ## Course Schedule
