@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    {% include nav.md %}
-
     <!-- The capture block loads the markdown file, and markdownify converts it to HTML -->
     {% capture navbar_content %}{% include nav.md %}{% endcapture %}
     {{ navbar_content | markdownify }}
