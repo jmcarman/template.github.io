@@ -10,7 +10,7 @@
     {% include nav.md %}
 
     <!-- The capture block loads the markdown file, and markdownify converts it to HTML -->
-    {% capture navbar_content %}{% include navbar.md %}{% endcapture %}
+    {% capture navbar_content %}{% include nav.md %}{% endcapture %}
     {{ navbar_content | markdownify }}
 
     {{ content }}
