@@ -1,3 +1,7 @@
+---
+title: Homepage
+---
+
 [Home](./index.md) [Lab 1](./lab1.md) [Lab 2](./lab2.md)
 
 ## Course work
