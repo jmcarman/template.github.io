@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-{% include nav.md %}
+{% include ./nav.md %}
 
 ## Course work
 
