@@ -2,14 +2,6 @@
 title: Homepage
 ---
 
-<nav markdown="1">
-
-* [Home]({{ '/index.html' | relative_url }}){: .active}
-* [Lab 1]({{ '/lab1.html' | relative_url }})
-* [Lab 2]({{ '/lab2.html' | relative_url }})
-
-</nav>
-
 ## Course Schedule
 
 | Week | Content |
