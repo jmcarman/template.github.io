@@ -2,8 +2,6 @@
 title: Homepage
 ---
 
-{% include ./nav.md %}
-
 ## Course work
 
 | Lab | Description |
