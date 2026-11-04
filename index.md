@@ -2,7 +2,7 @@
 title: Homepage
 ---
 
-## Course Schedule
+# Course Schedule
 
 | Week | Content |
 |:----|:------------|
