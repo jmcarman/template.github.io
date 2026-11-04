@@ -4,4 +4,6 @@ defaults:
     values:
       layout: default
 
-url: "https://jmcarman.github.io/template.github.io"
+url: "https://jmcarman.github.io/"
+
+baseurl: "/template.github.io/"
