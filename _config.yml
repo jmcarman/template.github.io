@@ -3,5 +3,3 @@ defaults:
       path: ""
     values:
       layout: default
-baseurl: "/template.github.io"
-url: "https://jmcarman.github.io"
