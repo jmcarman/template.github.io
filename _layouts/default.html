@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="{{ site.author | escape }}">
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="copyright" content="{{ site.copyright | escape }}">
     <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
@@ -16,5 +19,9 @@
       <p>The current absolute page URL is {{ page.url | absolute_url }}</p>
       {{ content }}
     </main>
+    <footer>
+      <p>Copyright &copy; {{ site.copyright }}</p>
+      <p>License: {{ site.license }}</p>
+    </footer>
   </body>
 </html>
