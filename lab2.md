@@ -1,5 +1,6 @@
 ---
 title: Lab 2
+description: Sample topic 2
 ---
 
 # Sample Lab
