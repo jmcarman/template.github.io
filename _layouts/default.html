@@ -8,17 +8,8 @@
   </head>
   <body>
     <nav class="site-nav">
-        <ul>
-            <li>
-                <a class="{% if page.url == '/' or page.url == '/index.html' %}active{% endif %}" href="{{ '/index.html' | relative_url }}">Home</a>
-            </li>
-            <li>
-                <a class="{% if page.url == '/lab1.html' %}active{% endif %}" href="{{ '/lab1.html' | relative_url }}">Lab 1</a>
-            </li>
-            <li>
-                <a class="{% if page.url == '/lab2.html' %}active{% endif %}" href="{{ '/lab2.html' | relative_url }}">Lab 2</a>
-            </li>
-        </ul>
+      {% capture nav_content %}{% include nav.md %}{% endcapture %}
+      {{ nav_content | markdownify }}
     </nav>
     <main>
       <p>The current relative page URL is {{ page.url }}</p>
