@@ -141,7 +141,20 @@ div#table {
 	overflow-x: auto;
 }
 
-td, th {
+/* Markdown tables are converted to accessible div-based rows by the plugin. */
+.md-table {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	overflow-x: auto;
+}
+
+.md-tr {
+	display: grid;
+	grid-template-columns: repeat(var(--col-count, 1), minmax(0, 1fr));
+}
+
+td, th, .md-td, .md-th {
 	border: .1em solid #333333;
 	border-radius: .25em;
 	padding: 1em;
