@@ -16,4 +16,11 @@ description: Course schedule
 :::: {.week-topic} Week 1
 :::: {.week-content} Sample content 1 [Lab 1](./lab1.md)
 :::: {.week-topic} Week 2
-:::: {.week-content} Sample content 2 [Lab 2](./lab2.md
+:::: {.week-content} Sample content 2 [Lab 2](./lab2.md)
+
+<div class="grid-container">
+  <div>Week 1</div>
+  <div>Sample content 1 <a href="{{ '/lab1.html' | relative_url }}">Lab 1</a></div>
+  <div>Week 2</div>
+  <div>Sample content 2 <a href="{{ '/lab2.html' | relative_url }}">Lab 2</a></div>
+</div>
