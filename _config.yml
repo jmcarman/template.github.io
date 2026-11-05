@@ -6,6 +6,5 @@ defaults:
 url: "https://jmcarman.github.io/"
 baseurl: "/template.github.io/"
 author: "Your Name"
-copyright: "© 2026 Your Name"
 description: "Course website"
 license: "CC BY-SA"
