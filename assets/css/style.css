@@ -199,19 +199,28 @@ img.sample {
 }
 
 /* Flex schedule (homepage) */
-.grid-container > th, .grid-container > td {
-/*
+.grid-container {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
-*/
 	gap: .25em;
 	background-color: #333333;
 	padding: .25em;
 	border-radius: .25em;
+	font-size: 1em;
 }
 
-.grid-container {
+/* Flatten table/div rows so every cell is a grid item */
+.grid-container thead, .grid-container tbody, .grid-container tr,
+.grid-container .md-tr {
+	display: contents;
+}
+
+.grid-container th, .grid-container td,
+.grid-container .md-th, .grid-container .md-td {
 	background-color: #bcce1e;
+	color: #000000;
+	border: none;
+	border-radius: 0;
 	text-align: center;
 	padding: .75em 0;
 	font-size: 1em;
@@ -255,22 +264,16 @@ img.sample {
 		color: #91b6c2;
 	}
 
-	/* Flex schedule (homepage) navigation */
+	/* Flex schedule (homepage) */
 	.grid-container {
-		display: grid;
-		grid-template-columns: 1fr 3fr;
-		gap: .25em;
 		background-color: #bcce1e;
-		padding: .25em;
-		border-radius: .25em;
 	}
 
-	.grid-container > div {
+	.grid-container th, .grid-container td,
+	.grid-container .md-th, .grid-container .md-td {
 		background-color: #333333;
-		text-align: center;
-		padding: .75em 0;
-		font-size: 1.5em;
+		color: #ffffff;
 	}
 
-	/* End Flex schedule (homepage) navigation */
+	/* End Flex schedule (homepage) */
 }
