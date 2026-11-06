@@ -221,8 +221,8 @@ img.sample {
 	color: #000000;
 	border: none;
 	border-radius: 0;
-	text-align: center;
-	padding: .75em 0;
+	text-align: center !important; /* overrides inline alignment from Markdown */
+	padding: .75em 0 !important;
 	font-size: 1em;
 }
 
