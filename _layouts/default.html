@@ -18,8 +18,12 @@
       {{ content }}
     </main>
     <footer>
-      <p>Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}</p>
-      <p>This text is available under<a href="https://creativecommons.org/licenses/by-sa/4.0/"> {{ site.license }}</a>.</p>
+      <div class="copyright">
+        Copyright &copy; {{ site.time | date: '%Y' }} {{ site.author }}
+      </div>
+      <div class="license">
+        This text is available under<a href="https://creativecommons.org/licenses/by-sa/4.0/"> {{ site.license }}</a>.
+      </div>
     </footer>
   </body>
 </html>

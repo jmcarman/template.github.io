@@ -78,6 +78,7 @@ footer {
 	color: #ffffff;
 	padding: 0.25em;
 }
+
 /* start of navigation */
 nav {
 	position: fixed;
@@ -128,7 +129,6 @@ nav ul li.right {
 		overflow: auto;
 	}
 }
-
 /* end of navigation*/
 
 /* Table */
@@ -177,7 +177,7 @@ img.sample {
 	height: auto;
 }
 
-/* Responsive Iframe */
+/* Responsive iframe */
 .container {
 	position: relative;
 	width: 100%;
@@ -225,7 +225,6 @@ img.sample {
 	padding: .75em 0 !important;
 	font-size: 1.5em !important;
 }
-
 /* End Flex schedule (homepage) */
 
 /* Dark Mode */
@@ -276,4 +275,36 @@ img.sample {
 	}
 
 	/* End Flex schedule (homepage) */
+}
+/* End Dark Mode */
+
+/* Print Style */
+@media print {
+	body {
+		background-color: #ffffff;
+		color: #000000;
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h1 {
+		color: #000000;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+/* End Print Style */
+
+/* copyright */
+.copyright {
+	float: left;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* license */
+.license {
+	float: right;
+	text-align: center;
+	font-size: 0.8em;
 }
