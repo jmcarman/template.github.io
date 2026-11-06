@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="{{ site.author | escape }}">
     <meta name="description" content="{{ page.description | default: site.description | escape }}">
-    <meta name="copyright" content="{{ site.copyright | escape }}">
+    <meta name="keywords" content="{{ page.keywords | default: site.keywords | escape }}">
     <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
